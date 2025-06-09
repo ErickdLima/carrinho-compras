@@ -1,2 +1,2 @@
 # carrinho-compras
-exerciocio de JavaScript proposto na Alura
+exercício de JavaScript proposto pela Alura
