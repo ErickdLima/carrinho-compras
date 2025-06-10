@@ -27,10 +27,8 @@ function adicionar(){
                     if(objNomes[i].includes(nomeProduto)){
                         listaCarrinho[objNomes[i]].quantidade = parseInt(listaCarrinho[objNomes[i]].quantidade) + parseInt(quantidade);
                     }
-
                     nomeCarrinho.innerHTML += (`<section class="carrinho__produtos__produto"><span class="texto-azul">x${listaCarrinho[objNomes[i]].quantidade}</span> ${objNomes[i]}
                     <span class="texto-azul">R$${listaCarrinho[objNomes[i]].valor}</span></section>`).trim();
-                i++
                         
             }
         }
